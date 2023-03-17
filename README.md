@@ -1,1 +1,0 @@
-# vanyayatsura.github.io
