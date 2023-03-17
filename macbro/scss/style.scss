@@ -1,0 +1,409 @@
+// обнулення
+@import "_nulse";
+// підключеyня інших файлів
+
+/*Підключення шрифтів*/
+// &display=swap -добавити до шрифтів
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,700&display=swap");
+// ==========================================================================================
+// базові налаштування
+body{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E312F;
+    background-color: #E8F1F3;
+}
+.menu-open body{
+    overflow: hidden;
+}
+.wraper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+}
+[class*="__container"]{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.main{
+    flex: 1 1 auto;
+}
+// ===========================================================================================
+// налаштування блоків
+
+// ===========================================================================================
+// стилі
+.header {
+    padding: 50px 0px;
+    &__container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__logo {
+        position: relative;
+        max-width: 100%;
+        z-index: 5;
+    }
+    &__logo img{
+        width: 100%;
+
+    }
+    &__menu {
+        padding: 0px 10px;
+        flex: 1 1 auto;
+    }
+
+    &__button {
+        position: relative;
+        display: inline-block;
+        flex: 0 0 auto;
+        text-align: center;
+        padding: 16px 24px;
+        border: 1px solid #2E312F;
+        border-radius: 10px;
+        line-height: 0.87; /* 24/20 */
+        transition: background-color 1s ease 0s;
+        z-index: 5;
+    }
+    &__button a{
+        color: #2E312F;
+    }
+    &__button:hover{
+        background-color: #b4bcbe; 
+    }
+
+    &__icon {
+        display: none;
+    }
+    @media(max-width: 991.98px){
+        padding: 40px 0px;
+        &__logo{
+            max-width: 150px;
+        }
+        &__button{
+            padding: 16px 10px;
+            font-size: 16px;
+        }
+        &__menu{
+            padding: 0px 5px;
+        }
+        
+    } 
+    @media(max-width: 767.98px){
+        &__button{
+            margin-right: 10px;
+        }
+        &__icon{
+            display: block;
+            flex: 0 0 30px;
+            height: 18px;
+            position: relative;
+            z-index: 5;
+            transition: all 0.5s ease 0s;
+        }
+        &__icon span,
+        &__icon::before,
+        &__icon::after{
+            content: "";
+            right: 0; 
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #2E312F;
+        }
+        
+        &__icon::before{
+            top: 0;
+        }
+        &__icon::after{
+            bottom: 0;
+        }
+        &__icon span{
+            top: calc(50% - 1px);
+        }
+        .menu-open &__icon span{
+            width: 0;
+        }
+        .menu-open &__icon::before{
+            top: calc(50% - 1px);
+            transform: rotate(-45deg);
+        }
+        .menu-open &__icon::after{
+            bottom: calc(50% - 1px);
+            transform: rotate(45deg);
+        }
+        
+    }
+    
+     @media(max-width: 560px){
+        padding: 20px 0px;
+        &__logo{
+            width: 50px;
+            overflow: hidden;
+        }
+        &__logo img{
+            width: 183px;
+        }
+     }
+}
+.menu {
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+        row-gap: 3px;
+        flex-wrap: wrap;
+    }
+
+    &__link {
+        font-weight: 400;
+        line-height: 1.2; /* 24/20 */
+        transition: text-decoration 1s ease 0s;
+    }
+    &__link a{
+        color: #2E312F;
+    }
+    &__link:hover{
+        text-decoration: underline;
+    }
+    @media(max-width: 991.98px){
+        &__list{
+            column-gap: 5px;
+        }
+    }
+    @media(max-width: 767.98px){
+        &__body {
+            padding-top: 130px;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: #E8F1F3;
+            left: -100%;
+            top: 0;
+            overflow: auto;
+            transition: left 0.5s ease 0s;
+            z-index: 2;
+        }
+        &__body::before{
+            content: "";
+            width: 100%;
+            position: fixed;    
+            top: 0;
+            left: -100%;
+            height: 110px;
+            background-color: #E8F1F3;
+            z-index: 2;
+        }
+        .menu-open  &__body{
+            left: 0;
+        }
+        .menu-open  &__body::before{
+            left: 0;
+        }
+        &__list{
+            flex-direction: column;
+            row-gap: 10px;
+        }
+        &__link{
+            font-size: 32px;
+        }
+    }
+}
+// ===========================================================================================
+.why {
+    &__content{
+        position: relative;
+        background-color: #D8E5E8;
+        border-radius: 40px 40px 0px 0px;
+        display: flex;
+        column-gap: 79px;
+        align-items: end;
+        justify-content: center;
+    }
+    &__body {
+        padding: 79px 5px 79px 101px;
+        flex: 0 1 55%;
+    }
+    &__img {
+        padding: 0px 10px;
+        display: block;
+        flex: 0 1 45%;
+    }
+    &__img img{
+        max-width: 100%;
+        object-fit: cover;
+    }
+    @media(max-width: 991.98px){
+        &__content{
+            column-gap: 40px;
+        }
+        &__body{
+            padding: 50px 5px 50px 50px;
+        }
+    }
+    @media(max-width: 767.98px){
+        &__content{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__body{
+            padding: 40px 10px 0px 10px;
+            text-align: center;
+        }
+
+    }
+}
+.body-why {
+    &__title {
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 1.2; /* 65/54 */
+        margin-bottom: 16px;
+    }
+
+    &__text {
+        line-height: 1.2; /* 24/20 */
+        margin-bottom: 32px;
+    }
+
+    &__btn {
+        padding: 16px 24px;
+        display: inline-block;
+        background-color: #2E312F;
+        line-height: 1.2;
+        color: #fff;
+        border: 1px solid #2E312F;
+        border-radius: 10px;
+        transition: background-color 0.5s ease 0s;
+        white-space: nowrap;
+    }
+    &__btn span{
+        white-space: nowrap;
+    }
+    &__btn:hover{
+        background-color: #474b48;
+    }
+     @media(max-width: 991.98px){
+        &__title{
+            font-size: 32px;
+        }
+        &__text{
+            &__text{
+                font-size: 18px;
+            }
+        }
+        &__btn{
+            font-size: 18px;
+            padding: 10px 14px;
+        }
+     }
+     @media(max-width: 767.98px){
+        &__btn{
+            text-align: center;
+            white-space: pre-wrap;
+        }
+     }
+}
+// ===========================================================================================
+
+.partners {
+
+    &__content {
+        margin-bottom: 28px;
+        padding: 47px 10px;
+        background-color: #fff;
+        border-radius: 0px 0px 40px 40px;
+    }
+    @media(max-width: 991.98px){
+        &__content{
+            margin-bottom: 0px;
+        }
+    }
+}
+.items {
+    display: flex;
+    column-gap: 64px;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+     @media(max-width: 991.98px){
+        column-gap: 38px;
+    }
+}
+.item img{
+    max-width: 100%;
+    object-fit: cover;
+}
+// ===========================================================================================
+.main {
+
+    &__laters-products {
+        margin-bottom: 120px;
+    }
+    @media(max-width: 767.98px){
+        &__laters-products {
+            margin-bottom: 60px;
+        }
+    }
+    @media(max-width: 560px){
+        &__laters-products {
+            margin-bottom: 20px;
+        }
+    }
+}
+.laters-products {
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        padding: 8px 16px;
+        margin: 72px 10px;
+        border-radius: 35px;
+        background-color: #fff;
+        font-size: 20px;
+        line-height: 1.2; /* 24/20 */
+    }
+        
+    &__items {
+        width: 100%;
+        display: flex;
+        column-gap: 20px;
+        row-gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__item img{
+        width: 100%;
+        object-fit: cover;
+    }
+    @media(max-width: 767.98px){
+        &__title{
+            margin: 36px 10px;
+        }
+        &__items{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media(max-width: 560px){
+        &__items{
+            display: block;
+        }
+        &__item:not(:last-child){
+            margin-bottom: 20px;
+        }
+    }
+}
+
