@@ -7,5 +7,8 @@ function documentClick(e) {
 
     if (tardetItem.closest('.header__icon')){
         document.documentElement.classList.toggle('menu-open');
-    }
+    };
+        if (tardetItem.closest('.menu__link')){
+        document.documentElement.classList.toggle('menu-open');
+    };
 }
