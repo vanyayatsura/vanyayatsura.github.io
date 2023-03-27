@@ -1,5 +1,5 @@
-@import url(reset.css);
-@import url(header.css);
+@import url(/portfolio/style/reset.css);
+@import url(/portfolio/style/header.css);
 [class*=__container]{
   margin: 0 auto;
   width: 1015px;
