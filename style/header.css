@@ -1,3 +1,4 @@
+@import url(reset.css);
 .header {position: relative;
   max-width: 100%;
   z-index: 2;
@@ -6,7 +7,6 @@
   color: #000;
   font-size: 16px;
   height: 50px;
-
 }
 .header__name-page {
   flex: 0 0 30%;
@@ -45,3 +45,15 @@
   color: #2e2e2e;
   transition: all .1s ease;
 }
+ @media(max-width: 399.98px){
+  .header{
+    font-size: 14px;
+  }
+  .header__name-page{
+    padding: 7px;
+    font-size: 16px;
+  }
+  .header__name-page{
+    padding: 7px;
+  }
+ }

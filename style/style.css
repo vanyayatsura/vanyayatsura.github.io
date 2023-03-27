@@ -7,12 +7,10 @@ body{
   letter-spacing: 1px;
   line-height: 1.5;
 }
-.wrapper{
-  padding: 10px 10px;
-}
 .container{
   max-width: 1000px;
   margin: 0 auto;
+  padding: 15px;
 }
 .main {
   display: flex;
@@ -257,6 +255,9 @@ body{
   border-radius: 50%;
 }
  @media(max-width: 719.98px){
+  .container{
+    padding: 10px;
+  }
   .main{
     display: block;
   }
