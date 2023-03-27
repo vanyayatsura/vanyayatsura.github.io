@@ -42,7 +42,7 @@
   text-decoration: underline;
 }
 .header__item a{
-  padding: 5px;
+  padding: 8px;
   color: #2e2e2e;
   transition: all .1s ease;
 }
