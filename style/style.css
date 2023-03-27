@@ -260,11 +260,49 @@ body{
   .main{
     display: block;
   }
+  .sidebar{
+    padding: 10px 15px;
+  }
   .sidebar__me{
     display: block;
     text-align: center;
   }
+  .sidebar__skills{
+    padding-bottom: 10px;
+  }
+  .section{
+    padding: 20px 15px 0 15px;
+  }
   .section__me{
     display: none;
+  }
+ }
+ @media(max-width: 399.98px){
+  .about-me__title{
+    font-size: 16px;
+  }
+  .sidebar{
+    padding: 10px 10px;
+  }
+  .sidebar__contact{
+    font-size: 16px;
+  }
+  .skills__title{
+    font-size: 16px;
+  }
+  .section{
+    padding: 20px 10px 0 10px;
+  }
+  .position{
+    padding: 10px 0px 10px 60px;
+  }
+  .position::after{
+    left: 50px;
+  }
+  .position::before{
+    left: 45px;
+  }
+  .works__title{
+    font-size: 16px;
   }
  }
