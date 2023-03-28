@@ -1,5 +1,5 @@
-@import url(reset.css);
-@import url(header.css);
+@import url(/style/reset.css);
+@import url(/style/header.css);
 /* ===================================================*/
 body{
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
