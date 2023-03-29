@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left">
+            <div class="avatar">
+                <img src="https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/16:9/w_2560%2Cc_limit/1521-WIRED-Cat.jpeg" alt="avatar">
+            </div>
+            <div class="personal-info">
+                <div class="title">
+                    Особисті дані
+                </div>
+                <div>
+                    <b>Name:</b><br> Hohn Dou
+                </div>
+                <div>
+                    <b>Address:</b><br> IF
+                </div>
+                <div>
+                    <b>Number:</b><br> 00000000000
+                </div>
+                <div>
+                    <b>email:</b><br> mail@mail.com
+                </div>
+                 <div class="title">
+                    Interest
+                </div>
+                <div>
+                    Hobby
+                </div>
+                <div>
+                    Play games
+                </div>
+                <div>
+                    Shoping
+                </div>
+                 <div class="title">
+                    Language
+                </div>
+                <div>
+                    <span>English</span>
+                    <span class="lang-lvl">Good</span>
+                </div>
+                <div>
+                    <span>Ukrainian</span>
+                    <span class="lang-lvl">Native</span>
+                </div>
+            </div>
+        </div><div class="right">
+            <h1>
+                John Dou
+            </h1>
+            <hr>
+            <div>
+                Досвід роботи
+            </div>
+            <div>
+                <span>Ukrainian</span>
+                <span class="lang-lvl">Native</span>
+            </div>
+            <div>
+                Розробка програмного забезпечення, додатків, веб‑інтерфейсів відповідно до вимог технічного завдання.
+            </div>
+
+            <div>
+                Освіта і кваліфікації
+            </div>
+            <div>
+                <span>Ukrainian</span>
+                <span class="lang-lvl">Native</span>
+            </div>
+            <div>
+                Розробка програмного забезпечення, додатків, веб‑інтерфейсів відповідно до вимог технічного завдання.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
