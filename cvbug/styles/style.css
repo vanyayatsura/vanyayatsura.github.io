@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    height: 100%;
+}
 body {
     background-color: grey;
-    min-height:100%;
     height:100%;
+    overflow: scroll;
 }
 
 .wrapper {
@@ -59,9 +61,12 @@ body {
 }
 
 @media screen and (min-width: 800px) {
+    .wrapper{
+        height: 100%;
+    }
     .left, .right {
         display: inline-block;
-        height: 100vh;
+        height: 100%;
 
     }
 
