@@ -35,17 +35,11 @@ body {
     margin-left: -60px;
     height: 100%;
 }
-
 .title {
     font-size: 26px;
     border-bottom: 2px solid white;
     padding: 25px 0;
 }
-
-.personal-info {
-
-}
-
 .lang-lvl {
     float: right;
     margin-right: 25px;
@@ -55,11 +49,9 @@ body {
     padding: 25px;
     background-color: white;
 }
-
 .right h1 {
     display: none;
 }
-
 @media screen and (min-width: 800px) {
     .wrapper{
         height: 100%;
