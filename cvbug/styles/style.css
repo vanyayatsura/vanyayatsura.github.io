@@ -44,7 +44,7 @@ body {
 }
 @media screen and (min-width: 800px) {
     .wrapper{
-        height: 100vh;
+        height: 680px;
     }
     .left, .right {
         display: inline-block;
