@@ -1,0 +1,121 @@
+@import url(/burger/style/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+body{
+  font-family: 'Lora', serif;
+}
+.wrapper{
+  padding: 10px 10px;
+} 
+.main{
+  position: relative;
+  padding: 25px 10px 50px 10px;
+  margin: 0 auto;
+  max-width: 1085px;
+  background: linear-gradient(180deg,#261d1f, #483937);
+}
+.main__container{
+  margin: 0 auto;
+  margin-bottom: 10px;
+  height: 400px;
+  display: flex;
+  max-width: 940px;
+  background-color: #fff;
+}
+.main__burger{
+  max-width: 330px;
+  position: relative;
+  flex: 0 0 35%;
+}
+.burger__img{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.burger__img img{
+  margin-left: -35%;
+  height: 100%;
+  object-fit: cover;
+}
+.burger__offer{
+  padding: 40px 60px;
+  position: absolute;
+  bottom: 25px;
+  left: -12px;
+  width: 340px;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+} 
+.offer__title{
+  font-size: 37px;
+  padding-bottom: 10px;
+} 
+.offer__text {
+  font-size: 16px;
+  font-weight: 700;
+}
+.offer__text span{
+  color: #e8b917;
+}
+.main__burger-menu{
+  color: #333333;
+  padding: 35px 80px 40px 70px;
+  flex: 0 0 65%;
+  text-align: center;
+  font-size: 16px;
+} 
+.menu__price {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+}
+.price__left {
+  width: 50%;
+}
+.up{
+  text-transform: uppercase;
+}
+.price__item {
+  position: relative;
+  padding: 25px 0px;
+  width: 100%;
+  border-bottom: 1px solid #d5d5d5;
+}
+.price__item::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(0, 50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background-color: #d5d5d5;
+
+}
+.item__title {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.item__price {
+  color: #b6b6b6;
+  font-weight: 700;
+}
+.price__right {
+  width: 50%;
+}
+.main__buttom {
+  max-width: 940px;
+  text-align: right;
+  
+}
+.main__buttom a{
+  display: inline-block;
+  padding: 25px 45px 20px 45px;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
