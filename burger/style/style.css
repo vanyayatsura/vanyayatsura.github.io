@@ -7,10 +7,10 @@ body{
   padding: 10px 10px;
 } 
 .main{
+  padding: 25px 65px 50px 50px;
   position: relative;
-  padding: 25px 10px 50px 10px;
   margin: 0 auto;
-  max-width: 1085px;
+  width: 1085px;
   background: linear-gradient(180deg,#261d1f, #483937);
 }
 .main__container{
