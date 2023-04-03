@@ -14,7 +14,6 @@ body{
   background: linear-gradient(180deg,#261d1f, #483937);
 }
 .main__container{
-  margin: 0 auto;
   margin-bottom: 10px;
   height: 400px;
   display: flex;
