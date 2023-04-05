@@ -1,0 +1,182 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f9f9f9;
+  display: inline-block;
+}
+/* General */
+body{
+  background-color: #353535;
+  background-image: url(/background/img/bg.png);
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;;
+}
+.container {
+  padding: 0px 15px;
+  margin: 0 auto;
+  max-width: 895px;
+  text-align: center;
+}
+.button {
+  padding: 20px 45px;
+  background: linear-gradient( 90deg, #d11, #ff3670 );
+}
+h2{
+  padding: 40px 0px;
+  color: #a6a6a6;
+  font-size: 36px;
+}
+
+/* Header */
+#topbar{
+  background-color: rgba(1%, 1%, 1%, 0.5);
+}
+header{
+  padding-bottom: 80px;
+  background-image: url(/background/img/bg-01.jpg);
+  background-size: cover;
+  background-position-y: 50%;
+}
+.menu {
+  display: flex;
+}
+.menu li{
+  padding: 20px;
+}
+.menu li:first-child{
+  background-color: #b91b34;
+}
+h1{
+  color: #f9f9f9;
+  font-family: "Metal Mania", serif;
+  padding: 95px 0px 80px 0px;
+  font-size: 95px;
+}
+/* Tour */ 
+#tour .container{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 10px;
+  justify-content: center;
+}
+#tour .container h2{
+  flex: 0 0 100%;
+}
+.tour-town {
+  color: #c6c6c6;
+  padding-bottom: 16px;
+}
+.tour-place {
+  color: #c6c6c6;
+  padding-bottom: 16px;
+}
+.fa {}
+.fa-map-marker {}
+.tour-date {
+  color: #c6c6c6;
+  padding-bottom: 16px;
+}
+.tour-card {
+  text-align: start;
+  padding: 40px 5px 60px 5px;
+  flex: 0 0 22%;
+  box-shadow: 0 5px 15px #000;
+}
+.tour-card .button{
+  padding: 15px 25px;
+  margin-left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, 0);
+}
+.madrid {
+  background-image: url(/background/img/tour/madrid.jpg);
+  background-size: cover;
+}
+.turin {
+  background-image: url(/background/img/tour/turin.jpg);
+  background-size: cover;
+}
+.hamburg {
+  background-image: url(/background/img/tour/hamburg.jpg);
+  background-size: cover;
+}
+.krakow {
+  background-image: url(/background/img/tour/krakow.jpg);
+  background-size: cover;
+}
+
+/* Gallery */
+#gallery{
+  padding-bottom: 45px;
+}
+#gallery .container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+#gallery .container h2{
+  flex: 0 0 100%;
+}
+.photo {
+  flex: 0 0 30%;
+  box-shadow: 0 5px 15px #000;
+}
+.photo a img{
+width: 100%;
+}
+/* Subscribe */
+#subscribe{
+  background-image: url(/background/img/bg-02.jpg);
+  background-size: cover;
+  padding: 75px 0px;
+}
+.pitch {
+  color: #e8e8e8;
+  padding-bottom: 26px;
+}
+.subscribe-form {
+
+}
+.subscribe-form input{
+  padding: 14px 20px;
+  font-size: 20px;
+  height: 100%;
+  border: none;
+}
+.subscribe-form button{
+  font-size: 20px;
+  padding: 15px 20px;
+  height: 100%;
+  text-transform: uppercase;
+  background: linear-gradient( 90deg, #d11, #ff3670 );
+  border: none;
+  cursor: pointer;
+}
+/* Footer */
+footer{
+  padding: 30px 0px;
+}
+.social {
+  padding-bottom: 25px;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+.fa{}
+.fa-facebook-official {}
+.fa-twitter {}
+.fa-youtube {}
+.fa-apple {}
+.fa-spotify {}
+.fa-soundcloud {}
+.copyright {
+  color: #cbcbcb;
+}
