@@ -1,0 +1,159 @@
+@import url(/flexbox/style/reset.css);
+body{
+  font-family: 'Arial', sans-serif;
+}
+
+/* --- global classes---  */
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.d-flex{
+  display: flex;
+}
+/* ---end of global classes--- */
+.page-title {
+  padding: 20px 0px 65px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/*--- wrapper ---*/
+
+.wrapper{
+  margin: 0 auto;
+  width: 975px;
+  position: relative;
+  border: 1px solid #e3e3e3;
+}
+
+.nav{
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 70px;
+  border-radius: 50%;
+  border: 1px solid #e3e3e3;
+  background-color: #fff;
+}
+
+.nav:hover{
+  cursor: pointer;
+}
+
+.nav-left{
+  left: -15px;
+  transform: rotate(180deg);
+}
+
+.nav-right{
+  right: -15px;
+}
+
+.nav i{
+  margin-left: 2px;
+  color: #e3e3e3;
+}
+
+/* --- end wrapper --- */
+
+/* ---card--- */
+
+.card {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 20px 35px;
+  position: relative;
+  min-height: 425px;
+  width: 255px;
+  text-align: center;
+}
+
+.card:not(:last-child){
+  border-right: 1px solid #e3e3e3;
+}
+
+.stiker:after{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  top: -33px;
+  right: 10px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.stiker__new:after{
+  content: "новинка";
+  background-color: #86b022;
+}
+
+.stiker__hit:after{
+  content: "хіт продажу";
+  background-color: #009de1;
+}
+
+.card__category{
+  padding: 40px 0px 30px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.card__img {
+  padding: 20px 0 25px;
+  overflow: hidden;
+}
+.card__img img{
+  object-fit: cover;
+  height: 100%;
+}
+
+.card__title{
+  padding-bottom: 30px;
+  color: #009de1;
+  font-weight: 700;
+}
+
+.card__price {
+  justify-content: center;
+  align-items: center;
+  height: 14px;
+  padding-bottom: 25px;
+}
+.card__price span{
+  font-size: 20px;
+  font-weight: 700;
+}
+.discount::before{
+  content: "210 грн";
+  text-decoration: line-through;
+  padding-right: 10px;
+}
+
+.card__btn {
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.stock{
+  background-color: #e0d104;
+}
+.no-stock{
+  background-color: #98428d;
+  color: #e3e3e3;
+}
+/* ---end of card--- */
