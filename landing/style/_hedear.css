@@ -1,0 +1,39 @@
+/* Styles for page header */
+.page-header {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #d52047cc 0%, rgba(238, 61, 27, 0.8) 100%),
+              url(/landing/img/bg-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logo {
+  align-items: center;
+}
+.logo-title {
+  color:var(--white);
+  font-weight: 700;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+.menu-mobile{
+  position: relative;
+}
+.menu-icon{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.menu-icon i {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.burger-menu {
+  position: absolute;
+  top: -9999px;
+  right: 0;
+}
+
