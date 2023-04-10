@@ -38,22 +38,16 @@
 }
 .main-manu, .btn__login{
   font-size: 28px;
-  color:  var(--white);
   text-transform: uppercase;
   text-align: center;
-}
-.main-manu {
-  padding: 1rem 1rem 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-right: 10px;
 }
 .main-manu li{
-  border: 1px solid  var(--white);
-  padding: 0.5rem;
-  margin-bottom: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px 10px 0px;
+  color:  var(--white);
 }
 .btn__login {
-  border: 1px solid  var(--white);
-  padding: 0.5rem;
-  margin: 0 1rem 1rem;
-  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 10px 10px;
+  color: #a09f9f;
 }
