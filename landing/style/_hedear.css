@@ -36,4 +36,24 @@
   top: -9999px;
   right: 0;
 }
-
+.main-manu, .btn__login{
+  font-size: 28px;
+  color:  var(--white);
+  text-transform: uppercase;
+  text-align: center;
+}
+.main-manu {
+  padding: 1rem 1rem 0px;
+}
+.main-manu li{
+  border: 1px solid  var(--white);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.btn__login {
+  border: 1px solid  var(--white);
+  padding: 0.5rem;
+  margin: 0 1rem 1rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
