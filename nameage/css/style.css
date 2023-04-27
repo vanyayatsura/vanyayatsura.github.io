@@ -1,0 +1,7 @@
+@import url(reset.css);
+[class*=__container]{
+  width: 1200px;
+}
+#hello, #age {
+  font-size: 20px;
+}
