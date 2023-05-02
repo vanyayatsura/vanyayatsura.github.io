@@ -7,13 +7,11 @@ body {
   font-family: 'lato', sans-serif;
 }
 .wrap {
-  width: 100%;
+  margin: 0 auto;
   max-width: 1920px;
-  display: flex;
-  flex-direction: column;
-  overflow: clip;
 }
 .content-wrap{
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
   max-width: 1260px;
@@ -35,18 +33,9 @@ body {
   color: #F75E05;
   border: 1px solid #F75E05;
 }
-.btn-border:hover {
-  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
-  color: #fff;
-}
 .btn-gradient {
   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
   color: #fff;
-}
-.btn-gradient:hover {
-  color: #F75E05;
-  border: 1px solid #F75E05;
-  background: none;
 }
 .main-title {
   font-weight: 900;

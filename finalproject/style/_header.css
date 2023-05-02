@@ -1,7 +1,6 @@
 .page-header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background: url(../img/icon/header-bg.svg) #FEDCD1;
   background-position: center;
   min-height: 100vh;
@@ -9,7 +8,6 @@
 .header-content{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex: 1 1 auto;
 }
 .header-content__courses {
@@ -41,7 +39,6 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 .header-content__courses-title {
-  color: #1E212C;
   padding: 12px 0 30px;
   text-align: center;
   max-width: 496px;
@@ -56,62 +53,23 @@ transform: translate(-50%, -50%);
   margin-bottom: 20px;
 }
 .header-content__imge {
+  margin-top: 108px;
+  margin-left: 29px;
   max-width: 602px;
   max-height: 551px;
-  min-height: 100%;
   flex: 0 0 50%;
   display: none;
-  overflow: hidden;
-}
-.header-content__imge img{
-  width: 100%;
-  object-fit: cover;
-}
-.statistics {
-  padding: 20px 0 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #1E212C;
-  row-gap: 10px;
-  column-gap: 66px;
-}
-.statistics-item {
-  display: flex;
-  align-items: center;
-  column-gap: 12px;
-}
-.statistics-item:not(:last-child) {
-  padding-bottom: 4px;
-  border-bottom: 1px solid #FF3F3A;
-}
-.statistics-item span {
-  font-size: 1.5rem;
-  font-weight: 900;
-}
-@media(min-width: 720px) {
-  .statistics {
-    flex-direction: row;
-  }
-  .statistics-item:not(:last-child) {
-    padding-bottom: 0;
-    border-bottom: none;
-  }
-  .statistics-item::before {
-    transform: translate(0 -50%);
-    content: '';
-    margin-right: 33px;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-    background-color:  #FF3F3A;
-  }
+  background-image: url(../img/header-content.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 @media(min-width: 1024px) {
   .header-content__courses {
+    padding-top: 140px;
     flex: 0 0 50%;
     align-items: start;
+    align-self: flex-start;
   }
   .header-content__imge {
     display: block;
@@ -133,11 +91,5 @@ transform: translate(-50%, -50%);
       margin-bottom: 0;
       margin-right: 24px;
   }
-  .statistics {
-    justify-content: space-between;
-    padding: 80px 0;
-  }
-  .statistics-item span {
-    font-size: 4rem; 
-  }
+  
 }
