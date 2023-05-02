@@ -4,7 +4,9 @@ while (true) {
   if (!studentName) break;
   addArray(studentName);
 }
-alert(name)
+
+alert(name);
+
 function addArray(arrayElement) {
   name[name.length] = arrayElement;
 }
