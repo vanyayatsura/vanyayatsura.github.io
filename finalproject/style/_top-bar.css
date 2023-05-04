@@ -129,9 +129,14 @@
     margin-bottom: 0;
   }
   .top-bar_main-manu li:not(:last-child){
-    padding-right: 40px;
+    padding-right: 20px;
   }
   .r-side {
     align-self: center;
+  }
+ }
+ @media(min-width: 1200px){
+  .top-bar_main-manu li:not(:last-child){
+    padding-right: 40px;
   }
  }

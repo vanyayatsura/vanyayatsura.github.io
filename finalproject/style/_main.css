@@ -1,0 +1,72 @@
+/* why createx */
+.why-createx {
+  width: 100%;
+  padding: 40px 0 20px;
+  background: url(../img/main/why-background.svg);
+  background-position: center;
+}
+.why-createx-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why-createx__img {
+  width: 100%;
+  max-width: 600px;
+}
+.why-createx__img img {
+  width: 100%;
+}
+.why-createx__content {
+  padding-top: 20px;
+}
+.title-why {
+  padding-bottom: 6px;
+  font-weight: 700;
+  padding-bottom: 6px;
+}
+.why-createx__title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+.why-createx__list {
+  color: #424551;
+  padding-bottom: 20px;
+}
+.why-createx__item{
+  position: relative;
+  padding-left: 16px;
+}
+.why-createx__item::before {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: url(../img/icon/why-icon.svg);
+  background-position: center;
+  background-size: cover;;
+}
+.why-createx__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.why-createx__btn {
+  font-size: 1rem;
+}
+@media(min-width: 1024px) {
+  .why-createx-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .why-createx__img {
+    flex: 0 0 55%;
+    max-width: 705px;
+  }
+  .why-createx__content {
+    max-width: 390px;
+  }
+}
