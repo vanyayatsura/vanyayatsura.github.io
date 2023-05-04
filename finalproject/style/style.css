@@ -2,9 +2,10 @@
 @import url(_reset.css);
 @import url(_top-bar.css);
 @import url(_header.css);
-
+@import url(_main.css);
 body {
   font-family: 'lato', sans-serif;
+  color: #1E212C;
 }
 .wrap {
   margin: 0 auto;
@@ -23,7 +24,7 @@ body {
   white-space: nowrap;
   border-radius: 4px;
   line-height: 26px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   display: inline-block;
   cursor: pointer;
@@ -33,9 +34,18 @@ body {
   color: #F75E05;
   border: 1px solid #F75E05;
 }
+.btn-border:hover {
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  color: #fff;
+}
 .btn-gradient {
   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
   color: #fff;
+}
+.btn-gradient:hover {
+  border: 1px solid #F75E05;
+  background: none;
+  color: #F75E05;
 }
 .main-title {
   font-weight: 900;
