@@ -48,7 +48,6 @@
 }
 .footer-nav__items {
   font-size: 1.125em;
-  opacity: 0.6;
   text-align: left;
 }
 .footer-nav__items:not(:last-child) {
@@ -56,6 +55,7 @@
 }
 .footer-nav__item a{
   line-height: 1.6;
+  opacity: 0.6;
 }
 .footer-nav__item a:hover {
   opacity: 1;
