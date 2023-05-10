@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900,&display:swap");
 @import url("_reset.css");
-@import url("finalproject/style/_top-bar.css");
+@import url("https://github.com/vanyayatsura/vanyayatsura.github.io/blob/main/finalproject/style/_top-bar.css");
 @import url("_header.css");
 @import url("_main.css");
 @import url("_bg-color.css");
 @import url("_footer.css");
+
 html {
   scroll-behavior: smooth;
 }
