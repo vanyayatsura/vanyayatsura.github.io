@@ -57,6 +57,9 @@
 .footer-nav__item a{
   line-height: 1.6;
 }
+.footer-nav__item a:hover {
+  opacity: 1;
+}
 .footer__sing-up {
   padding-bottom: 20px;
   text-align: center;
@@ -190,9 +193,6 @@ border-radius: 4px;
   }
   .footer-nav__item:not(:last-child) {
     padding-bottom: 8px;
-  }
-  .footer-nav__item a:hover {
-    opacity: 1;
   }
   .footer__sing-up {
     flex: 0 0 auto;
