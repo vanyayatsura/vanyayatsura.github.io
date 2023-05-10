@@ -32,11 +32,11 @@
 .footer__nav {
   padding: 12px 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
+  flex-direction: column;
+  justify-content: center;
 }
 .footer-nav__cont {
-  padding: 0 20px 10px;
+  padding-bottom: 10px;
 }
 .footer-nav__title {
   padding-bottom: 8px;
@@ -130,6 +130,16 @@ border-radius: 4px;
   line-height: 1.5;
   font-size: 1.125rem;
   font-weight: 700;
+}
+@media(min-width: 425px) {
+  .footer__nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-nav__cont {
+    padding: 0 30px 20px;
+  }
 }
 @media(min-width:1024px) {
   .footer {
