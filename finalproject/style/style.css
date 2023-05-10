@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900,&display:swap");
-@import url("_reset.css");
+@import url("reset.css");
 @import url("top-bar.css");
-@import url("_header.css");
-@import url("_main.css");
-@import url("_bg-color.css");
-@import url("_footer.css");
+@import url("header.css");
+@import url("main.css");
+@import url("bg-color.css");
+@import url("footer.css");
 
 html {
   scroll-behavior: smooth;
