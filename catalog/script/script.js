@@ -42,7 +42,6 @@ let letters = {
 // масиви
 let category = [math, gift, score, letters];
 // функції
-
 function addEL (content){
   let wrap = document.getElementById('wrapper');
   wrap.innerHTML = wrap.innerHTML + content;
