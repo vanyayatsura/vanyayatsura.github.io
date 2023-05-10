@@ -191,6 +191,9 @@ border-radius: 4px;
   .footer-nav__item:not(:last-child) {
     padding-bottom: 8px;
   }
+  .footer-nav__item:hover {
+    opacity: 1;
+  }
   .footer__sing-up {
     flex: 0 0 auto;
     max-width: 286px;
