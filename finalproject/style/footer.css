@@ -33,7 +33,10 @@
   padding: 12px 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
+}
+.footer-nav__cont {
+  padding: 0 20px 10px;
 }
 .footer-nav__title {
   padding-bottom: 8px;
@@ -164,6 +167,9 @@ border-radius: 4px;
     padding: 0 40px;
     flex-wrap: nowrap;
     justify-content: space-around;
+  }
+  .footer-nav__cont {
+    padding: 0;
   }
   .footer-nav__title {
     padding-bottom: 12px;
