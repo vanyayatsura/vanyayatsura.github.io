@@ -1,0 +1,53 @@
+{
+  "team" : [
+    {
+      "teamFoto" : "img/maain/team-foto-1.png",
+      "teamName" : "Dianne Russell",
+      "position" : "Founder and CEO",
+      "social" : {
+        "faceboock" : "https://uk-ua.facebook.com/",
+        "instagram" : "https://www.instagram.com/",
+        "linkedIn" : "https://ua.linkedin.com/"
+      }    
+    },
+    {
+      "teamFoto" : "img/maain/team-foto-2.png",
+      "teamName" : "Jerome Bell",
+      "position" : "Founder and Program Director",
+      "social" : {
+        "faceboock" : "https://uk-ua.facebook.com/",
+        "instagram" : "https://www.instagram.com/",
+        "linkedIn" : "https://ua.linkedin.com/"
+      }    
+    },
+    {
+      "teamFoto" : "img/maain/team-foto-3.png",
+      "teamName" : "Kristin Watson",
+      "position" : "Marketer, Curator of Marketing Course",
+      "social" : {
+        "faceboock" : "https://uk-ua.facebook.com/",
+        "instagram" : "https://www.instagram.com/",
+        "linkedIn" : "https://ua.linkedin.com/"
+      }    
+    },
+    {
+      "teamFoto" : "img/maain/team-foto-4.png",
+      "teamName" : "Marvin McKinney",
+      "position" : "PM, Curator of Management Course",
+      "social" : {
+        "faceboock" : "https://uk-ua.facebook.com/",
+        "instagram" : "https://www.instagram.com/",
+        "linkedIn" : "https://ua.linkedin.com/"
+      }    
+    }
+  ],
+  "comments" : [
+    {
+      "userFoto" : "img/maain/testimonial__user-foto - 1.png",
+      "userName" : "Eleanar Pena",
+      "position" : "position, Course",
+      "comment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in."
+    }
+  ]
+
+}
