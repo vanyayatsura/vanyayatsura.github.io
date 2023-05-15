@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
  
    const response = await fetch(request)
    const superHeroes = await response.json()
- 
+    
    populateHeader(superHeroes)
    populateHeries(superHeroes)
   }
