@@ -31,10 +31,12 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 
   // функції скрол вверх
-  function goTop () {
-    document.documentElement.scrollTop = 0;
-  }
-
+  const goTopBtn = document.querySelector("#goToTop") 
+  goTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0
+    })
+  })
   // add content for team
   function addTeam(obj) {
     const teamConteiner = document.querySelector('.team__slider-conteiner')
