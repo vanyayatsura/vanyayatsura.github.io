@@ -72,8 +72,8 @@ document.addEventListener('DOMContentLoaded', () => {
       teamPosition.textContent = team.position
 
       teamSlide.appendChild(teamFoto)
-      teamSlide.appendChild(hoverGradient)
-      teamSlide.appendChild(teamLinc)
+      teamFoto.appendChild(hoverGradient)
+      teamFoto.appendChild(teamLinc)
       teamSlide.appendChild(teamName)
       teamSlide.appendChild(teamPosition)
 
