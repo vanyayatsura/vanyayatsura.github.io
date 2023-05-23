@@ -5,15 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    body {
+      overflow: hidden;
+    }
     .eror__wrap {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      min-height: 100vh;
+      height: 100%;
       font-size: 2rem;
     }
-    .eror__wrap div{
+    .img {
+      max-width: 550px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .eror__wrap img {
+      width: 100%;
+      object-fit: cover;
+    }
+    .eror__wrap .not-found{
       font-size: 12rem;
       padding-bottom: 5px;
     }
@@ -39,7 +52,10 @@
 </head>
 <body>
   <div class="eror__wrap">
-    <div>404</div>
+    <div class="img">
+      <img src="https://metrolab.com.ua/image/cache/catalog/news/depositphotos_12631147-stock-photo-3d-man-with-exclamation-825x458.jpg" alt="error">
+    </div>
+    <div class="not-found">404</div>
     <span>page not found</span>
     <a href="../index.html">go CV</a>
   </div>
