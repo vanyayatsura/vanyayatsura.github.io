@@ -1,2 +1,2 @@
 RewriteEngine On
-ErrorDocument 404 https://vanyayatsura.github.io/erors/404.html
+ErrorDocument 404 https://vanyayatsura.github.io/404.html
