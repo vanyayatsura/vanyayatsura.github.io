@@ -1,7 +1,7 @@
 {
   "team" : [
     {
-      "teamFoto" : "img/main/team-foto-1.png",
+      "teamFoto" : "vanya/img/main/team-foto-1.png",
       "teamName" : "Dianne Russell",
       "position" : "Founder and CEO",
       "social" : {
