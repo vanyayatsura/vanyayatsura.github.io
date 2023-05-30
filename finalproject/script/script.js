@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       braces.innerHTML = `<img src="img/main/braces.png" alt="braces">`
       comment.textContent = comments.comment
-      userFoto.innerHTML = `<img src="${comments.userFoto}" alt="user foto">`
+      userFoto.innerHTML = `<img src="img/main/${comments.userFoto}" alt="user foto">`
       userName.textContent = comments.userName
       userPosition.textContent = comments.position
 
