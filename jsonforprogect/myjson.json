@@ -1,7 +1,7 @@
 {
   "team" : [
     {
-      "teamFoto" : "vanya/img/main/team-foto-1.png",
+      "teamFoto" : "team-foto-1.png",
       "teamName" : "Dianne Russell",
       "position" : "Founder and CEO",
       "social" : {
@@ -11,7 +11,7 @@
       }    
     },
     {
-      "teamFoto" : "img/main/team-foto-2.png",
+      "teamFoto" : "team-foto-2.png",
       "teamName" : "Jerome Bell",
       "position" : "Founder and Program Director",
       "social" : {
@@ -21,7 +21,7 @@
       }    
     },
     {
-      "teamFoto" : "img/main/team-foto-3.png",
+      "teamFoto" : "team-foto-3.png",
       "teamName" : "Kristin Watson",
       "position" : "Marketer, Curator of Marketing Course",
       "social" : {
@@ -31,7 +31,7 @@
       }    
     },
     {
-      "teamFoto" : "img/main/team-foto-4.png",
+      "teamFoto" : "team-foto-4.png",
       "teamName" : "Marvin McKinney",
       "position" : "PM, Curator of Management Course",
       "social" : {
@@ -43,7 +43,7 @@
   ],
   "comments" : [
     {
-      "userFoto" : "img/main/testimonial-user-foto-1.png",
+      "userFoto" : "testimonial-user-foto-1.png",
       "userName" : "Eleanar Pena",
       "position" : "position, Course",
       "comment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in."
