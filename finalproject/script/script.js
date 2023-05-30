@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const teamPosition = document.createElement('div')
       teamPosition.classList.add('team__position')
 
-      teamFoto.innerHTML = `<img src="${team.teamFoto}" alt="Foto">`
+      teamFoto.innerHTML = `<img src="img/main/${team.teamFoto}" alt="Foto">`
       teamLinc.innerHTML = `<a href="${team.social.faceboock}">
                     <img src="img/icon/facebook.svg" alt="facebook">
                   </a>
@@ -132,8 +132,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const slideNext = document.createElement('div')
     slideNext.classList.add('testimonials-next')
 
-    
-
 
     const myTestimonials = obj.comments
 
@@ -179,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
     testimonialsContainer.appendChild(slideLine)
     testimonialsContainer.appendChild(slidePrev)
     testimonialsContainer.appendChild(slideNext)
-
+  
     // testimonials slider
     const testimonialsSlider = new Swiper('.testimonials__slider-container', {
       direction: 'horizontal',
