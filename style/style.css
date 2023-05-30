@@ -10,9 +10,11 @@ body{
 .container{
   max-width: 1000px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
+  overflow: hidden;
 }
 .main {
+  border-radius: 0 0 5px 5px;
   display: flex;
   max-width: 100%;
   justify-content: center;
@@ -97,6 +99,7 @@ body{
   position: relative;
   padding-left: 30px;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .skills__item::before{
   position: absolute;

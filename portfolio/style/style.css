@@ -37,6 +37,9 @@
   width: 100%;
   object-fit: cover;
 }
+.project {
+  border-radius: 10px;
+}
 .project a{
   color: #2e2e2e;
   border-radius: 30px;
