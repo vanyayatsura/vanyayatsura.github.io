@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
       pagination: {
         el: '.slede__lins',
-        clickable: true,
+        clickable: false,
       },
       navigation: {
         nextEl: '.testimonials-next',
