@@ -210,6 +210,8 @@ body{
 }
 .education {
   position: relative;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #515151;
 }
 .education__title {
   text-transform: uppercase;
@@ -256,6 +258,40 @@ body{
   left: 36px;
   top: 14px;
   border-radius: 50%;
+}
+.courses {
+  padding-top: 20px;
+}
+.courses__title{
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.courses__conteiner {
+  display: flex;
+}
+.courses__courses-date {
+  max-width: 140px;
+  padding-right: 40px;
+}
+.courses__name {
+  padding-bottom: 5px;
+}
+.courses__date {}
+.courses__specialtu {
+  position: relative;
+  padding-left: 20px;
+  border-left: 1px solid #515151;
+}
+.courses__specialtu::before{
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: #515151;
+  border-radius: 50%;
+  left: 0;
+  top: 5px;
+  transform: translate(-50%);
 }
  @media(max-width: 719.98px){
   .container{
@@ -308,5 +344,39 @@ body{
   }
   .works__title{
     font-size: 16px;
+  }
+  .courses {
+    padding-top: 20px;
+  }
+  .courses__title{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+  .courses__conteiner {
+    display: flex;
+  }
+  .courses__courses-date {
+    max-width: 100px;
+    padding-right: 40px;
+  }
+  .courses__name {
+    padding-bottom: 5px;
+  }
+  .courses__date {}
+  .courses__specialtu {
+    position: relative;
+    padding-left: 20px;
+    border-left: 1px solid #515151;
+  }
+  .courses__specialtu::before{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: #515151;
+    border-radius: 50%;
+    left: 0;
+    top: 5px;
+    transform: translate(-50%);
   }
  }
