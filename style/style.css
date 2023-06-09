@@ -268,6 +268,7 @@ body{
 }
 .courses__conteiner {
   display: flex;
+  align-items: center;
 }
 .courses__courses-date {
   max-width: 140px;
@@ -276,8 +277,11 @@ body{
 .courses__name {
   padding-bottom: 5px;
 }
-.courses__date {}
 .courses__specialtu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
   position: relative;
   padding-left: 20px;
   border-left: 1px solid #515151;
@@ -290,8 +294,65 @@ body{
   background-color: #515151;
   border-radius: 50%;
   left: 0;
-  top: 5px;
+  top: 4px;
   transform: translate(-50%);
+}
+.link__certificate {
+  padding-top: 10px;cursor: pointer;
+}
+.link__certificate:hover .certificate__link-foto{
+  transition: all .2s ease;
+  font-size: 18px;
+  width: 120px;
+}
+.certificate__link-foto {
+  text-align: center;
+  width: 100px;
+}
+.certificate__link-foto img {
+  width: 100%;
+  object-fit: cover;
+
+}
+.certificate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(81, 81, 81, 0.7);
+  min-width: 0%;
+  min-height: 0%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  opacity: 0;
+  transition: all .5s ease;
+ }
+
+.certificate__img {
+  width: 50%;
+  overflow: hidden;
+}
+
+.certificate__img img {
+  width: 100%;
+  object-fit: cover;
+}
+.icon__close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+.icon__close:hover {
+  transform: rotate3d(1, 0, 0, 180deg);
 }
  @media(max-width: 719.98px){
   .container{
@@ -315,6 +376,9 @@ body{
   }
   .section__me{
     display: none;
+  }
+  .certificate__img {
+    width: 100%;
   }
  }
  @media(max-width: 399.98px){
@@ -345,38 +409,7 @@ body{
   .works__title{
     font-size: 16px;
   }
-  .courses {
-    padding-top: 20px;
-  }
-  .courses__title{
-    text-transform: uppercase;
-    padding-bottom: 20px;
-  }
-  .courses__conteiner {
-    display: flex;
-  }
   .courses__courses-date {
     max-width: 100px;
-    padding-right: 40px;
-  }
-  .courses__name {
-    padding-bottom: 5px;
-  }
-  .courses__date {}
-  .courses__specialtu {
-    position: relative;
-    padding-left: 20px;
-    border-left: 1px solid #515151;
-  }
-  .courses__specialtu::before{
-    content: "";
-    position: absolute;
-    height: 10px;
-    width: 10px;
-    background-color: #515151;
-    border-radius: 50%;
-    left: 0;
-    top: 5px;
-    transform: translate(-50%);
   }
  }
