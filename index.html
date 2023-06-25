@@ -34,7 +34,11 @@
           <!-- about me -->
           <div class="sidebar__about-me about-me">
             <h2 class="about-me__title">About me</h2>
-            <p class="about-me__text">I am studying to become a front-end developer at IT-CLUSTER academy</p>
+            <p class="about-me__text">
+              <span>I strive to achieve high results in the IT field, specifically aiming to pursue a career path as a front-end developer and eventually expand my skills to become a full-stack professional.</span>
+              <span>I am actively seeking opportunities to work in an IT company where my skills and potential will be recognized and utilized to the fullest extent. I am eager to discuss further details and join your team.</span>
+              <span>Thank you for your attention and the opportunity to consider my resume.</span>
+              </p>
           </div>
           <!-- about me end -->
           <!-- contact -->
@@ -129,6 +133,7 @@
                     Certificate: <img src="img/certificate.jpg" alt="certificate">
                   </div>
                 </div>
+                <div onclick="openReviews()" class="reviews__button"><span class="reviews">Feedback from mentors</span></div>
               </div>
             </div>
           </div>
@@ -141,6 +146,12 @@
     <div onclick="closeFoto()" class="icon__close"> &#x2716;</div>
     <div class="certificate__img">
       <img src="img/certificate.jpg" alt="certificate">
+    </div>
+  </div>
+  <div id="showReviews" class="reviews__modal">
+    <div onclick="closeReviews()" class="icon__close"> &#x2716;</div>
+    <div class="reviews__img">
+      <img src="img/Ivan-Yatsura.jpg" alt="reviews">
     </div>
   </div>
   <script src="script/script.js"></script>
