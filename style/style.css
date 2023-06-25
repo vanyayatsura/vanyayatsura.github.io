@@ -388,9 +388,10 @@ body{
   opacity: 0;
   transition: all .5s ease;
 }
-
 .reviews__img {
   height: 100%;
+  min-height: 426px;
+  overflow-x: auto;
 }
 .reviews__img img {
   height: 100%;
